@@ -1,0 +1,48 @@
+To change the way the home page looks, and add pictures to the articles excerpts i have to change the file 'index.html'
+
+
+
+
+I have to add a picture of myself to the about page.
+
+
+
+
+I should add blockquotes to the articles.
+
+
+
+
+I just solved the problem using this technique: Include jekyll / liquid template data in a YAML variable?
+
+therefore i changed the use of the variable inside the post from:
+
+{{ post.img }}
+to:
+
+{{ post.img | replace: '..', site.url }}
+I hope this helps someone with the same problem. :)
+
+http://stackoverflow.com/questions/25295418/jekyll-declare-image-path-in-front-matter-as-variable-using-site-url
+
+
+
+
+'Author: Gaspar L.G.' in the yaml front matter of each post?
+
+
+
+
+Font color 0e0e0e
+Font coloe #333
+Font color 474747
+Font: Roboto
+Font: helvetica neue
+Font: proxima-nova
+Font: open sans
+Size: 18 Line height: 27
+Size: 23 Line height: 40
+Size: 22 Line height: 33
+Size: 18 Line height: 31
+Size: 20 Line height: 32
+Size: 17 Line height: 22
