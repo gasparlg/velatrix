@@ -3,7 +3,7 @@ layout: post
 title:  "Still don't know what UX means?"
 date:   2016-01-20
 tags: [ux]
-img: /velatrix/images/excerpt_img/notebook.jpg
+img: images/excerpt_img/notebook.jpg
 ---
 If you have been around the tech industry for the last years you have probably heard people talking about *UX design*. And most of you may not know yet what this fancy acronym means. Don't worry, its not rocket science, but it does can get very blurry at times. UX stands for User Experience Design and the best way to explain it is by first saying that UX is a series of well known tasks. Most organizations producing consumer products perform this tasks in a regular basis even without having a specialized UX designer. What I mean by this is that UX design can be part of the job of many people on an organization, like graphic designers, front-end developers, project managers, marketing professionals, business analysts, etc.
 
