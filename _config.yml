@@ -8,7 +8,7 @@
 # Site settings
 title: Velatrix
 description: "This blog focuses on the research aspects of tech industries by sharing informative articles and interviews with industry leaders."
-baseurl: "/velatrix"
+baseurl: "/"
 url: "http://gasparlg.github.io/velatrix"
 tagline: "Connect & Research"
 
