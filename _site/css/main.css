@@ -278,7 +278,7 @@ th {
 }
  /* end normalize styles
  */
-/* -------------------------------------------------- 
+/* --------------------------------------------------
   Global settings
 -----------------------------------------------------*/
 body {
@@ -341,7 +341,7 @@ img, object, embed {
 	clear: both;
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
   header styles
 -----------------------------------------------------*/
 .page-header {
@@ -365,7 +365,7 @@ header p {
 	color: #666;
 	text-transform: uppercase;
 }
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
 nav ul, nav li {
@@ -381,7 +381,7 @@ nav li a {
 	letter-spacing: 0.1em;
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    article styles
 -----------------------------------------------------*/
 .posts, .archive {
@@ -505,7 +505,7 @@ dd {
 .next:after {
 	content: '\00a0\00bb';
 }
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    archive styles
 -----------------------------------------------------*/
 .archive ul {
@@ -553,7 +553,7 @@ h3:target + .taglist .return {
 .return a:before {
 	content: '\25b2\00a0';
 }
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    sidebar styles
 -----------------------------------------------------*/
 aside {
@@ -599,8 +599,8 @@ aside li {
 .twitter {
 	background: url(../images/twitter.svg) no-repeat;
 }
-	
-/* -------------------------------------------------- 
+
+/* --------------------------------------------------
    main footer styles
 -----------------------------------------------------*/
 .page-footer {
@@ -623,7 +623,7 @@ aside li {
 .top-link:before {
 	content: '\25b2\00a0';
 }
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    Smaller screen styles
 -----------------------------------------------------*/
 @media only screen and (max-width: 950px) {
@@ -631,7 +631,7 @@ aside li {
 .right, .left {
 	float: none;
 }
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
 nav {
@@ -707,21 +707,21 @@ dd{
 	margin:0;
 	margin-bottom: 1em;
 }
-    
-    
-    
 
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
 }
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    Larger screen styles
 -----------------------------------------------------*/
 @media only screen and (min-width: 951px) {
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    layout styles
 -----------------------------------------------------*/
 html {
@@ -750,7 +750,7 @@ aside {
 	padding-left: 2.5%;
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    header styles
 -----------------------------------------------------*/
 header h1 {
@@ -762,7 +762,7 @@ header p {
 	color: #666;
 	text-transform: uppercase;
 }
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
 nav {
@@ -795,7 +795,7 @@ nav li a:hover {
 	color: white;
 	background: #333;
 }
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    article styles
 -----------------------------------------------------*/
 article p {
@@ -805,7 +805,7 @@ article p {
 a.more {
 	margin: 0.5em 0;
 }
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    main footer styles
 -----------------------------------------------------*/
 .legal {
@@ -814,9 +814,9 @@ a.more {
 }
 
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    (I have to make media queries for different screen sizes and make appropiate images
-for each size of screen in photoshop, so when a mobile requests an image it will request 
+for each size of screen in photoshop, so when a mobile requests an image it will request
 an small image.)
 
     (checkout this two movies of the CSS page layouts course: 'making content responsive' and 'mobile considerations')
@@ -844,10 +844,10 @@ header .background{
     size: 50px 50px, cover;
     position: 30px 50px, 50% 50%;
     blend-mode: overlay, normal;
-    padding-bottom: 50px;      
+    padding-bottom: 50px;
 }
 
-header img { 
+header img {
     height: 600px;
     width: 100%;
 }
@@ -887,7 +887,7 @@ header h1 {
 header p {
     position: absolute;
     top: 250px;
-    left: 40%; 
+    left: 40%;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -933,7 +933,7 @@ article {
     header p {
     position: absolute;
     top: 250px;
-    left: 25%; 
+    left: 25%;
     text-align: center;
     font-size: 1em;
     font-weight: bold;
@@ -947,7 +947,7 @@ article {
     header p {
     position: absolute;
     top: 250px;
-    left: 30%; 
+    left: 30%;
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
@@ -963,21 +963,21 @@ article {
 		display: none;
 }
 
-.img-excerpt {  
+.img-excerpt {
     width: 100%;
     height: 100%;
 }
 
 .img-excerpt-sax {
     max-height: 20em;
-} 
+}
 
 .main-title {
     text-decoration: none;
     color: white;
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Audiowide', 'Playfair Display', Georgia, serif;
     text-transform: capitalize;
-    font-size: 1.1em;
+    font-size: 1.15em;
     /* border: 4px solid white;
     padding-left: 0.4em;
     padding-right: 0.4em;
@@ -1001,7 +1001,29 @@ article p {
 article p blockquote p {
     font-style: italic;
 }
-    
+
+header p .tagline {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header p {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 720px)
+header p {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* article p {
     font-family: "proxima-nova";
@@ -1013,7 +1035,7 @@ visibility: hidden;
 } */
 
 
-        
+
 
 
 
@@ -1025,7 +1047,7 @@ When using different images in the three versions, is better to use background: 
 
 */
 
-/* 
+/*
 img{
 display: none; */
 }
@@ -1052,9 +1074,3 @@ header p {
 }
 
 */
-
-
-
-
-
-    
