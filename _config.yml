@@ -20,4 +20,4 @@ kramdown:
 gems: [jekyll-paginate]
 paginate: 5
 paginate_path: '/blog/page:num/'
-permalink: {{ base.url }}blog/:title
+permalink: {{ site.baseurl }}blog/:title
