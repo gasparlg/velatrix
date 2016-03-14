@@ -5,7 +5,7 @@ date:   2016-01-25
 tags: [information architecture]
 excerpt: "Information Architecture has a fancy name and to many is a new and growing task in big organizations which work with a gazillion pieces of content like Google, Facebook, or Amazon.
 But in reality the architecture of information is as old as information itself. It has always been part along with questions like “how we structure this set of data so is easily found by others?”."
-img: /velatrix/images/excerpt_img/info-arch2.jpg
+img: images/excerpt_img/info-arch2.jpg
 ---
 
 # Finding is the new doing
