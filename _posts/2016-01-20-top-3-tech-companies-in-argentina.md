@@ -3,7 +3,7 @@ layout: post
 title:  "Tech Environment in Argentina"
 date:   2016-01-15
 tags: [argentina]
-img: /velatrix/images/excerpt_img/argentina-glacier.jpg
+img: images/excerpt_img/argentina-glacier.jpg
 ---
 A lot of people relates technology to Silicon Valley, as if they were synonyms, and for the most part they are right. Just by having a glance into the famous valley in California you would see only but technology and equity owners. This reality has started to create the general thought that if you want to work in the technology industries you’ve got no option but moving to the San Francisco Bay Area. And this general idea is wrong, there are other geographical options, many of them. Argentina is one, a country that has made a significant and increasing development of their technology industries.
 
