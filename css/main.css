@@ -1024,6 +1024,10 @@ header p {
   margin-right: auto;
 }
 
+}
+
+@media only screen and (max-device-widht: 720) {
+
 article p {
 	font-size: 2em;
 }
