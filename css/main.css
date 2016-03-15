@@ -1026,7 +1026,7 @@ header p {
 
 }
 
-@media only screen and (max-device-widht: 720) {
+@media only screen and (max-device-widht: 1025px) {
 
 article p {
 	font-size: 2em;
