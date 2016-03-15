@@ -1016,12 +1016,18 @@ header p {
   margin-right: auto;
 }
 
-@media only screen and (max-width: 720px)
+@media only screen and (max-width: 720px) {
 header p {
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+article p {
+	font-size: 2em;
+}
+
 }
 
 
