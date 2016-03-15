@@ -1026,10 +1026,18 @@ header p {
 
 }
 
-@media only screen and (max-device-widht: 1025px) {
+@media only screen and (min-device-width: 200px) and (max-device-widht: 1025px) {
 
 article p {
 	font-size: 2em;
+}
+
+header h1 {
+	font-size: 3em; 
+}
+
+header p {
+	font-size: 3em;
 }
 
 }
