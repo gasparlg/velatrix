@@ -9,5 +9,5 @@ Velatrix was created as a medium to share ideas and information about the techno
 
 Gaspar Lobato Grinberg
 
-@gasparworld
+@
 
