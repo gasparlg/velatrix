@@ -39,4 +39,5 @@ This is the stage where the solutions and the users come together, and all feedb
 This process should be iterated continuously to have a continuous improvement.
 
 
+
 Gaspar Lobato Grinberg
